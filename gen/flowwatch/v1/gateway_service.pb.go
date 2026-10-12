@@ -490,7 +490,7 @@ const file_flowwatch_v1_gateway_service_proto_rawDesc = "" +
 	"\tHeartbeat\x128\n" +
 	"\ttimestamp\x18\x01 \x01(\v2\x1a.google.protobuf.TimestampR\ttimestamp2`\n" +
 	"\x0eGatewayService\x12N\n" +
-	"\bRegister\x12\x1e.flowwatch.v1.SubsystemMessage\x1a\x1c.flowwatch.v1.GatewayMessage\"\x00(\x010\x01BGZEgithub.com/lunarforge/flowwatch/gen/flowwatch/v1;flowwatchv1b\x06proto3"
+	"\bRegister\x12\x1e.flowwatch.v1.SubsystemMessage\x1a\x1c.flowwatch.v1.GatewayMessage\"\x00(\x010\x01B>Z<github.com/lunarforge/flowwatch/gen/flowwatch/v1;flowwatchv1b\x06proto3"
 
 var (
 	file_flowwatch_v1_gateway_service_proto_rawDescOnce sync.Once

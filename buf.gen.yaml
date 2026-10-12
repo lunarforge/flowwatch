@@ -1,12 +1,12 @@
 version: v2
 plugins:
   # Go protobuf messages
-  - remote: buf.build/protocolbuffers/go
+  - remote: buf.build/protocolbuffers/go:v1.36.11
     out: gen
     opt: paths=source_relative
 
   # Connect-Go service stubs (handlers + clients)
-  - remote: buf.build/connectrpc/go
+  - remote: buf.build/connectrpc/go:v1.18.1
     out: gen
     opt: paths=source_relative
 

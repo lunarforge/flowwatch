@@ -6,22 +6,28 @@
   },
   "tags": [
     {
-      "name": "AnalyticsService"
+      "name": "AnalyticsService",
+      "description": "AnalyticsService provides pre-aggregated metrics for dashboards:\nthroughput, latency distributions, failure rates, step duration\nbreakdowns, and failure heatmaps."
     },
     {
-      "name": "GatewayService"
+      "name": "GatewayService",
+      "description": "GatewayService enables subsystem FlowWatch instances to register with a\ncentral gateway via a persistent bidirectional stream. The gateway maintains\na registry of connected subsystems and proxies UI requests to them."
     },
     {
-      "name": "RunService"
+      "name": "RunService",
+      "description": "RunService provides CRUD access to workflow runs, step-level detail,\nand lifecycle actions (retry, cancel, pause, skip).\n\n─── Queries ───"
     },
     {
-      "name": "SearchService"
+      "name": "SearchService",
+      "description": "SearchService provides full-text search across runs, steps, payloads,\nand logs with faceted filtering and a structured query language."
     },
     {
-      "name": "StreamService"
+      "name": "StreamService",
+      "description": "StreamService provides real-time server-streaming RPCs.\nConnect-Go exposes these as Server-Sent Events (SSE) over HTTP,\nmaking them consumable from browsers without WebSocket libraries."
     },
     {
-      "name": "WorkflowService"
+      "name": "WorkflowService",
+      "description": "WorkflowService provides read access to workflow definitions,\ngraph topology, and engine capability negotiation."
     }
   ],
   "consumes": [
