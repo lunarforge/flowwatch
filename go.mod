@@ -5,7 +5,7 @@ go 1.25.3
 require (
 	connectrpc.com/connect v1.18.1
 	connectrpc.com/cors v0.1.0
-	github.com/lunarforge/workflow v0.0.0
+	github.com/lunarforge/workflow v0.4.0
 	github.com/rs/cors v1.11.1
 	github.com/rs/zerolog v1.33.0
 	golang.org/x/net v0.34.0
@@ -31,5 +31,3 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	k8s.io/utils v0.0.0-20240921022957-49e7df575cb6 // indirect
 )
-
-replace github.com/lunarforge/workflow => ../workflow

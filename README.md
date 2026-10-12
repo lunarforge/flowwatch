@@ -12,7 +12,7 @@ Add FlowWatch monitoring to your workflow application using the public `flowwatc
 
 ```go
 import (
-	"github.com/lunarforge/workflow/flowwatch"
+	"github.com/lunarforge/flowwatch"
 )
 
 // Create the adapter with your existing stores.
@@ -56,7 +56,7 @@ The gateway listens on `:8091` by default and serves the same FlowWatch API, bac
 Each service opts in by setting `GATEWAY_ADDR`:
 
 ```go
-import "github.com/lunarforge/workflow/flowwatch/gateway"
+import "github.com/lunarforge/flowwatch/gateway"
 
 // After FlowWatch setup, register with the gateway (non-blocking).
 go gateway.ConnectToGateway(ctx,
